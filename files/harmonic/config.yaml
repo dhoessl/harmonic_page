@@ -1,0 +1,58 @@
+---
+title: 'Harmonic Soundsystem'
+baseURL: 'https://www.harmonicsoundsystem.de/'
+theme: [ 'ananke' ]
+
+enableRobotsTXT: true
+
+SectionPagesMenu: 'main'
+paginate: 5
+
+languageCode: 'de-de'
+defaultContentLanguage: 'de'
+defaultContentLanguageInSubdir: true
+
+languages:
+  de:
+    title: 'Harmonic Soundsystem'
+    contentDir: 'content/german'
+    languageName: 'Deutsch'
+    weight: 1
+
+sitemap:
+  changefreq: 'monthly'
+  priority: 0.5
+  filename: 'sitemap.xml'
+
+params:
+  env: 'production'
+  description: 'Harmonic Soundsystem'
+  # keywords:
+  #   - 'Blog'
+  #   - 'Hugo'
+  #   - 'Harmonic Soundsystem'
+  #   - 'Harmonic'
+  #   - 'Soundsystem'
+  #   - 'Dub'
+  #   - 'Reggae'
+  #   - 'Roots'
+  author: 'harmonicsoundsystem'
+  date_format: 'January 2, 2006'
+  background_color_class: 'bg-black'
+  recent_posts_number: 3
+  favicon: ''
+  text_color: ''
+  site_logo: ''
+
+  ananke_socials:
+    - name: 'facebook'
+      url: 'https://www.facebook.com/harmonicsoundsystem'
+    - name: 'instagram'
+      url: 'https://www.instagram.com/harmonic_soundsystem/'
+
+outputs:
+  home:
+    - 'HTML'
+    - 'RSS'
+    # - 'JSON'
+...

@@ -1,0 +1,20 @@
+---
+- name: 'Create persistent folders'
+  file:
+    path: '{{ harmonic_docker_host_dir }}/{{ item }}'
+    state: 'directory'
+  loop:
+    - 'data'
+    - 'data/public'
+  tags:
+    - 'blog:filesystem'
+
+- name: 'copy hugo content'
+  copy:
+    src: 'files/harmonic/public/'
+    dest: '{{ harmonic_docker_host_dir }}/data/public'
+    owner: 'root'
+    group: 'root'
+  tags:
+    - 'blog:filesystem'
+...

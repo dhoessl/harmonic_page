@@ -1,0 +1,22 @@
+---
+- name: 'create hugo container'
+  docker_compose:
+    pull: true
+    project_name: 'harmonicsoundsystem'
+    state: '{{ harmonic_state }}'
+    definition:
+      version: '3'
+      networks:
+        harmonic_net:
+          external: false
+      services:
+        blog:
+          image: 'nginx:latest'
+          restart: 'unless-stopped'
+          volumes:
+            - '{{ harmonic_docker_host_dir }}/data/public:/usr/share/nginx/html:ro'
+          networks:
+            - 'harmonic_net'
+          ports:
+            - '{{ harmonic_port }}:80'
+...
