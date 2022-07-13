@@ -6,7 +6,16 @@
     <description>Recent content on Harmonic Soundsystem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Sun, 12 Jun 2022 20:00:00 +0200</lastBuildDate><atom:link href="https://www.harmonicsoundsystem.de/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jul 2022 20:00:00 +0200</lastBuildDate><atom:link href="https://www.harmonicsoundsystem.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testen des Layouts</title>
+      <link>https://www.harmonicsoundsystem.de/post/test/</link>
+      <pubDate>Tue, 12 Jul 2022 20:00:00 +0200</pubDate>
+      
+      <guid>https://www.harmonicsoundsystem.de/post/test/</guid>
+      <description>Hallo das ist ein Test Artikel.</description>
+    </item>
+    
     <item>
       <title>Über Uns</title>
       <link>https://www.harmonicsoundsystem.de/about/</link>
