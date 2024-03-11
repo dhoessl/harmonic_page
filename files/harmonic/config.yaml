@@ -5,10 +5,9 @@ theme: [ 'ananke' ]
 
 enableRobotsTXT: true
 
-SectionPagesMenu: 'main'
+# SectionPagesMenu: 'main'
 paginate: 5
 
-languageCode: 'de-de'
 defaultContentLanguage: 'de'
 defaultContentLanguageInSubdir: true
 
@@ -17,7 +16,14 @@ languages:
     title: 'Harmonic Soundsystem'
     contentDir: 'content/german'
     languageName: 'Deutsch'
+    languageCode: 'de-de'
     weight: 1
+  en:
+    title: 'Harmonic Soundsystem'
+    contentDir: 'content/english'
+    languageName: 'English'
+    languageCode: 'en-US'
+    weight: 2
 
 sitemap:
   changefreq: 'monthly'
@@ -37,12 +43,12 @@ params:
   #   - 'Reggae'
   #   - 'Roots'
   author: 'harmonicsoundsystem'
-  date_format: 'January 2, 2006'
+  date_format: ':date_long'
   background_color_class: 'bg-black'
   recent_posts_number: 3
-  favicon: ''
+  favicon: 'images/fav.ico'
   text_color: ''
-  site_logo: ''
+  site_logo: 'images/small_fav.ico'
 
   ananke_socials:
     - name: 'facebook'
