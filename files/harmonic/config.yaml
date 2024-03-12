@@ -6,7 +6,7 @@ theme: [ 'ananke' ]
 enableRobotsTXT: true
 
 # SectionPagesMenu: 'main'
-paginate: 5
+paginate: 10
 
 defaultContentLanguage: 'de'
 defaultContentLanguageInSubdir: true
@@ -49,6 +49,9 @@ params:
   favicon: 'images/fav/fav.ico'
   text_color: ''
   site_logo: 'images/fav/small_fav.ico'
+  mainSections:
+    - 'post'
+    - 'upcoming'
 
   ananke_socials:
     - name: 'facebook'
