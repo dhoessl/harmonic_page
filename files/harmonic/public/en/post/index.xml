@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Harmonic Soundsystem</title>
-    <link>http://localhost:1313/en/post/</link>
+    <link>https://www.harmonicsoundsystem.de/en/post/</link>
     <description>Recent content in News on Harmonic Soundsystem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 11 Mar 2024 16:12:57 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.harmonicsoundsystem.de/en/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dubtown&amp;Fire: Dub Conference</title>
-      <link>http://localhost:1313/en/post/dubtownnfire/</link>
+      <link>https://www.harmonicsoundsystem.de/en/post/dubtownnfire/</link>
       <pubDate>Mon, 11 Mar 2024 16:12:57 +0100</pubDate>
-      <guid>http://localhost:1313/en/post/dubtownnfire/</guid>
+      <guid>https://www.harmonicsoundsystem.de/en/post/dubtownnfire/</guid>
       <description>On the 2nd of March we played a Soundsystem Conference hosted by I&amp;amp;I Dubwise Soundsystem in Munich.&#xA;For the first time since we build our new Subs we could set them up outside of our resident location. With big tunes and such nice boxes we could provide heavy tunes for this session.&#xA;Your Browser does not support this video tag Give Thanks fi di invitation and big up to each and everyones help.</description>
     </item>
     <item>
       <title>Dub Club Allgäu #24</title>
-      <link>http://localhost:1313/en/post/familienbetrieb_24/</link>
+      <link>https://www.harmonicsoundsystem.de/en/post/familienbetrieb_24/</link>
       <pubDate>Mon, 26 Feb 2024 10:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/en/post/familienbetrieb_24/</guid>
+      <guid>https://www.harmonicsoundsystem.de/en/post/familienbetrieb_24/</guid>
       <description>For #24 of Dub Club Allgäu we have invited the nice Familienbetrieb Soundsystem.&#xA;The sound of a big roots tunes to heavy steppas could be heard troughout the night.&#xA;Familienbetrieb wrote some nice words after the session (DE): Instagram Post</description>
     </item>
   </channel>

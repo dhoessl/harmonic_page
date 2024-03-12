@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Termine on Harmonic Soundsystem</title>
-    <link>http://localhost:1313/de/upcoming/</link>
+    <link>https://www.harmonicsoundsystem.de/de/upcoming/</link>
     <description>Recent content in Termine on Harmonic Soundsystem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Tue, 12 Mar 2024 11:38:12 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/de/upcoming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.harmonicsoundsystem.de/de/upcoming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dub Club Allgäu #26</title>
-      <link>http://localhost:1313/de/upcoming/dubclub26/</link>
+      <link>https://www.harmonicsoundsystem.de/de/upcoming/dubclub26/</link>
       <pubDate>Tue, 12 Mar 2024 11:38:12 +0100</pubDate>
-      <guid>http://localhost:1313/de/upcoming/dubclub26/</guid>
+      <guid>https://www.harmonicsoundsystem.de/de/upcoming/dubclub26/</guid>
       <description>Nächster Dub Club Allgäu mit Harmonic Soundsystem:&#xA;➡️ 13. April 2024&#xA;Wir haben dieses Mal ein ganz besonderes Booking aus Irland am Start 💥&#xA;Benji Revelation vom Revelation Soundsystem ist seit mehr als 25 Jahren im Soundbusiness und hat ne richtig dicke Selektion am Start ❤️💛💚&#xA;wir freuen uns mega drauf 💯🔥</description>
     </item>
     <item>
       <title>We dub Weekender</title>
-      <link>http://localhost:1313/de/upcoming/wedub/</link>
+      <link>https://www.harmonicsoundsystem.de/de/upcoming/wedub/</link>
       <pubDate>Tue, 12 Mar 2024 11:38:00 +0100</pubDate>
-      <guid>http://localhost:1313/de/upcoming/wedub/</guid>
+      <guid>https://www.harmonicsoundsystem.de/de/upcoming/wedub/</guid>
       <description>Wir sind zum We Dub Weekender vom 29. - 31. März in Tübingen eingeladen.&#xA;Harmonic Sound wird es am 29. zusammen mit Chris Lion Paw und Roots Taifun Sound zu hören geben.&#xA;Für den Freitag ist nur Presale möglich, es gibt keine Abendkasse.&#xA;Weitere Informationen sind auf Facebook zu finden.</description>
     </item>
   </channel>
