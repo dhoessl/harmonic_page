@@ -2,10 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Next Up on Harmonic Soundsystem</title>
-    <link>https://www.harmonicsoundsystem.de/en/upcoming/</link>
+    <link>http://localhost:1313/en/upcoming/</link>
     <description>Recent content in Next Up on Harmonic Soundsystem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <atom:link href="https://www.harmonicsoundsystem.de/en/upcoming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Mar 2024 11:38:12 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/upcoming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dub Club Allgäu #26</title>
+      <link>http://localhost:1313/en/upcoming/dubclub26/</link>
+      <pubDate>Tue, 12 Mar 2024 11:38:12 +0100</pubDate>
+      <guid>http://localhost:1313/en/upcoming/dubclub26/</guid>
+      <description>Next Dub Club Allgäu:&#xA;➡️ 13. April 2024&#xA;This time we got a special booking outa Irland 💥&#xA;Benji Revelation from Revelation Soundsystem is doing Soundbusiness for more than 25 years and will provide a big and heavy selection ❤️💛💚&#xA;we are happy to announce this and looking forward to this day 💯🔥</description>
+    </item>
+    <item>
+      <title>We dub Weekender</title>
+      <link>http://localhost:1313/en/upcoming/wedub/</link>
+      <pubDate>Tue, 12 Mar 2024 11:38:00 +0100</pubDate>
+      <guid>http://localhost:1313/en/upcoming/wedub/</guid>
+      <description>On the 29. March we are invited to play on the We Dub Weekender.&#xA;We will be playing together with Chris Lion Paw and Roots Taifun Sound.&#xA;On this day there is just presale and no tickets on entry.&#xA;More info on Facebook.</description>
+    </item>
   </channel>
 </rss>

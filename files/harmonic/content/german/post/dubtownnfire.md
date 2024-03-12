@@ -2,11 +2,11 @@
 title: 'Dubtown&Fire: Dub Conference'
 description: 'I&I Dubwise Sound meets Harmonic Soundsystem'
 date: 2024-03-11T16:12:57+01:00
-featured_image: "images/dub_town_n_fire_flyer.png"
+featured_image: "images/dubtown/flyer.png"
 draft: false
 ---
-![Flyer](/images/dub_town_n_fire_flyer.png)
-![Crew](/images/dubtown_1.jpg)
+![Flyer](/images/dubtown/flyer.png)
+![Crew](/images/dubtown/1.jpg)
 
 Am 2. März waren wir zu Gast bei I&I Dubwise Soundsystem im Sunny Red in München.
 
