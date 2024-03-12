@@ -17,4 +17,6 @@
     group: 'root'
   tags:
     - 'blog:filesystem'
+  notify:
+    - 'restart harmonic webpage container'
 ...
