@@ -9,14 +9,25 @@
   tags:
     - 'blog:filesystem'
 
-- name: 'copy hugo content'
-  copy:
-    src: 'files/harmonic/public/'
-    dest: '{{ harmonic_docker_host_dir }}/data/public'
-    owner: 'root'
-    group: 'root'
+- name: "sync public hugo dir"
+  ansible.posix.synchronize:
+    src: "files/harmonic/public"
+    dest: "{{ harmonic_docker_host_dir }}/data/public"
+    delete: true
+    recursive: true
   tags:
     - 'blog:filesystem'
   notify:
     - 'restart harmonic webpage container'
+
+# - name: 'copy hugo content'
+#   copy:
+#     src: 'files/harmonic/public/'
+#     dest: '{{ harmonic_docker_host_dir }}/data/public'
+#     owner: 'root'
+#     group: 'root'
+#   tags:
+#     - 'blog:filesystem'
+#   notify:
+#     - 'restart harmonic webpage container'
 ...
