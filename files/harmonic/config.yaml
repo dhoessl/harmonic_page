@@ -37,15 +37,7 @@ params:
   images:
     - "images/harmonic_logo_with_sound.jpg"
   show_post_dates: false
-  # keywords:
-  #   - 'Blog'
-  #   - 'Hugo'
-  #   - 'Harmonic Soundsystem'
-  #   - 'Harmonic'
-  #   - 'Soundsystem'
-  #   - 'Dub'
-  #   - 'Reggae'
-  #   - 'Roots'
+  keywords: []
   author: 'harmonicsoundsystem'
   date_format: ':date_long'
   background_color_class: 'bg-black'
@@ -53,9 +45,6 @@ params:
   favicon: 'images/fav/fav.ico'
   text_color: ''
   site_logo: 'images/fav/small_fav.ico'
-  # mainSections:
-  #   - 'post'
-  #   - 'upcoming'
   social:
     - title: "Facebook"
       icon: "fa-facebook-f"
@@ -64,13 +53,6 @@ params:
       icon: "fa-instagram"
       url: "https://www.instagram.com/harmonic_soundsystem/"
   enableSourceMaps: true
-
-# menus:
-#   main:
-#     - name: "News"
-#       weight: 1
-#     - name: "Upcoming"
-#       weight: 2
 
 outputs:
   home:

@@ -2,179 +2,179 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/</loc>
     <lastmod>2024-03-12T11:38:12+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/"
+                href="https://www.harmonicsoundsystem.de/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/"
+                href="https://www.harmonicsoundsystem.de/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/news/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/news/</loc>
     <lastmod>2024-03-11T16:12:57+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/news/"
+                href="https://www.harmonicsoundsystem.de/de/news/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/news/"
+                href="https://www.harmonicsoundsystem.de/en/news/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/news_new/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/news_new/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/news_new/"
+                href="https://www.harmonicsoundsystem.de/de/news_new/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/news_new/"
+                href="https://www.harmonicsoundsystem.de/en/news_new/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/upcoming/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/upcoming/</loc>
     <lastmod>2024-03-12T11:38:12+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/upcoming/"
+                href="https://www.harmonicsoundsystem.de/de/upcoming/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/upcoming/"
+                href="https://www.harmonicsoundsystem.de/en/upcoming/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/booking/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/booking/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/booking/"
+                href="https://www.harmonicsoundsystem.de/de/booking/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/booking/"
+                href="https://www.harmonicsoundsystem.de/en/booking/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/box_building/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/box_building/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/box_building/"
+                href="https://www.harmonicsoundsystem.de/de/box_building/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/box_building/"
+                href="https://www.harmonicsoundsystem.de/en/box_building/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/upcoming/dubclub26/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/upcoming/dubclub26/</loc>
     <lastmod>2024-03-12T11:38:12+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/upcoming/dubclub26/"
+                href="https://www.harmonicsoundsystem.de/de/upcoming/dubclub26/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/upcoming/dubclub26/"
+                href="https://www.harmonicsoundsystem.de/en/upcoming/dubclub26/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/upcoming/wedub/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/upcoming/wedub/</loc>
     <lastmod>2024-03-12T11:38:00+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/upcoming/wedub/"
+                href="https://www.harmonicsoundsystem.de/de/upcoming/wedub/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/upcoming/wedub/"
+                href="https://www.harmonicsoundsystem.de/en/upcoming/wedub/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/news/dubtownnfire/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/news/dubtownnfire/</loc>
     <lastmod>2024-03-11T16:12:57+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/news/dubtownnfire/"
+                href="https://www.harmonicsoundsystem.de/de/news/dubtownnfire/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/news/dubtownnfire/"
+                href="https://www.harmonicsoundsystem.de/en/news/dubtownnfire/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/news/familienbetrieb_24/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/news/familienbetrieb_24/</loc>
     <lastmod>2024-02-26T10:00:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/news/familienbetrieb_24/"
+                href="https://www.harmonicsoundsystem.de/de/news/familienbetrieb_24/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/news/familienbetrieb_24/"
+                href="https://www.harmonicsoundsystem.de/en/news/familienbetrieb_24/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/categories/"
+                href="https://www.harmonicsoundsystem.de/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/categories/"
+                href="https://www.harmonicsoundsystem.de/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://www.harmonicsoundsystem.de/en/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://localhost:1313/de/tags/"
+                href="https://www.harmonicsoundsystem.de/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/tags/"
+                href="https://www.harmonicsoundsystem.de/en/tags/"
                 />
   </url>
 </urlset>
