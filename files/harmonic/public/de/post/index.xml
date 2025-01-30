@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Harmonic Soundsystem</title>
-    <link>https://www.harmonicsoundsystem.de/de/post/</link>
+    <link>http://localhost:1313/de/post/</link>
     <description>Recent content in News on Harmonic Soundsystem</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>de-de</language>
     <lastBuildDate>Mon, 11 Mar 2024 16:12:57 +0100</lastBuildDate>
-    <atom:link href="https://www.harmonicsoundsystem.de/de/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/de/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dubtown&amp;Fire: Dub Conference</title>
-      <link>https://www.harmonicsoundsystem.de/de/post/dubtownnfire/</link>
+      <link>http://localhost:1313/de/post/dubtownnfire/</link>
       <pubDate>Mon, 11 Mar 2024 16:12:57 +0100</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/de/post/dubtownnfire/</guid>
-      <description>Am 2. März waren wir zu Gast bei I&amp;amp;I Dubwise Soundsystem im Sunny Red in München.&#xA;Dort konnten wir zum ersten mal unsere neuen Boxen außerhalb des Allgäus spielen und allen eine fette Session bereiten.&#xA;Your Browser does not support this video tag Give Thanks fi di invitation and big up to each and everyones help.</description>
+      <guid>http://localhost:1313/de/post/dubtownnfire/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/dubtown/flyer.png&#34; alt=&#34;Flyer&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/dubtown/1.jpg&#34; alt=&#34;Crew&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Am 2. März waren wir zu Gast bei I&amp;amp;I Dubwise Soundsystem im Sunny Red in München.&lt;/p&gt;&#xA;&lt;p&gt;Dort konnten wir zum ersten mal unsere neuen Boxen außerhalb des Allgäus spielen und allen eine fette Session bereiten.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;video width=100% controls&gt;&#xA;  &lt;source src=&#39;http://localhost:1313/videos/dubtown_1.mp4&#39; type=&#39;video/mp4&#39;&gt;&#xA;  Your Browser does not support this video tag&#xA;&lt;/video&gt;&#xA;&#xA;&#xA;&lt;p&gt;Give Thanks fi di invitation and big up to each and everyones help.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dub Club Allgäu #24</title>
-      <link>https://www.harmonicsoundsystem.de/de/post/familienbetrieb_24/</link>
+      <link>http://localhost:1313/de/post/familienbetrieb_24/</link>
       <pubDate>Mon, 26 Feb 2024 10:00:00 +0200</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/de/post/familienbetrieb_24/</guid>
-      <description>Zusammen mit dem Familienbetrieb Soundsystem haben wir eine wundervolle Session verbracht. Die Nacht ware durch einen schönen Wechsel durch die verschiedenen Genres des Dubs gezeichnet.&#xA;Familienbetrieb Soundsystem haben dazu auch einen Post verfasst. Zum Post</description>
+      <guid>http://localhost:1313/de/post/familienbetrieb_24/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/dubclub24/crew.jpg&#34; alt=&#34;Dub Club Allgäu #24&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zusammen mit dem &lt;a href=&#34;https://www.instagram.com/familienbetriebsoundsystem/&#34;&gt;Familienbetrieb Soundsystem&lt;/a&gt; haben wir eine wundervolle Session verbracht.&#xA;Die Nacht ware durch einen schönen Wechsel durch die verschiedenen Genres des Dubs gezeichnet.&lt;/p&gt;&#xA;&lt;p&gt;Familienbetrieb Soundsystem haben dazu auch einen Post verfasst.&#xA;&lt;img src=&#34;http://localhost:1313/images/dubclub24/familienbetrieb.png&#34; alt=&#34;https://www.instagram.com/p/C35vGfMLqw7&#34;&gt;&#xA;&lt;a href=&#34;https://www.instagram.com/p/C35vGfMLqw7&#34;&gt;Zum Post&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

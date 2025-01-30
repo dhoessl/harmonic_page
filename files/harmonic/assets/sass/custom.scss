@@ -1,0 +1,15 @@
+
+#nav {
+  &:after {
+    background-color: #d4af37;
+  }
+  > ul {
+    > li {
+      &.current {
+        &:before {
+          background-color: #d4af37;
+        }
+      }
+    }
+  }
+}

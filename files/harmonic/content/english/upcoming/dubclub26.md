@@ -1,12 +1,10 @@
 ---
 title: "Dub Club Allgäu #26"
 date: 2024-03-12T11:38:12+01:00
-featured_image: "images/dubclub26/dub_club_26.jpg"
-description: 'Benji Revelation'
+image: "images/dubclub26/dub_club_26.jpg"
+description: 'Benji Revelation will join us on 13.04.2024'
 draft: false
 ---
-![Benji](/images/dubclub26/dub_club_26.jpg)
-
 Next Dub Club Allgäu:
 
 ➡️ 13. April 2024

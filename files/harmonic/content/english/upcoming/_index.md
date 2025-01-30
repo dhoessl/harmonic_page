@@ -1,7 +1,5 @@
 ---
-title: 'Next Up'
-menu:
-  main:
-    weight: 2
+title: 'Upcoming Events'
+menu: "main"
+weight: 30
 ---
-Informations and dates of our future Session

@@ -1,11 +1,10 @@
 ---
 title: "Dub Club Allgäu #26"
 date: 2024-03-12T11:38:12+01:00
-featured_image: "images/dubclub26/dub_club_26.jpg"
-description: 'Benji Revelation'
+image: "images/dubclub26/dub_club_26.jpg"
+description: 'Benji Revelation ist am 13.04.2024 bei uns zu Gast in der Karthalle'
 draft: false
 ---
-![Benji](/images/dubclub26/dub_club_26.jpg)
 Nächster Dub Club Allgäu mit Harmonic Soundsystem:
 
 ➡️ 13. April 2024

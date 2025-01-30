@@ -1,3 +1,6 @@
 [submodule "files/harmonic/themes/ananke"]
 	path = files/harmonic/themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "files/harmonic/themes/Arcana"]
+	path = files/harmonic/themes/Arcana
+	url = https://github.com/half-duplex/hugo-arcana.git

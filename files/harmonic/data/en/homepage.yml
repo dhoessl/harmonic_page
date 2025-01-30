@@ -1,0 +1,40 @@
+---
+banner:
+  enable: false
+  image: "images/harmonic_logo_with_sound.jpg"
+  contents: "Roots Dub Reggae Steppas Soundsystem"
+items:
+  - type: "heading"
+    heading: "Harmonic Soundsystem"
+    image: "images/harmonic_logo_with_sound.jpg"
+    contents: |
+      Roots Dub Reggae Steppas Soundsystem \
+      {{< rawhtml >}}
+      <br />
+      {{< /rawhtml >}}
+
+      Harmonic Soundsystem was found 2018 by Ras Mikey-I. \
+      In the meantime Susi Dub and Bredda Dome joined in operating the soundsystem longside Ras Mikey-I. \
+      Get ready to listen to and feel the irie vibes and heavy Bassline.
+
+      {{< rawhtml >}}
+      <br />
+      <img src="/images/harmonic_logo_with_sound.jpg">
+      {{< /rawhtml >}}
+
+  - type: "heading"
+    heading: "Next Up"
+    contents: "These are the next two events we are playing"
+
+  - type: "posts"
+    content_type: "upcoming"
+    max: 2
+
+  - type: "heading"
+    heading: "News"
+    contents: "A small selection of news about us and the soundsystem"
+
+  - type: "posts"
+    content_type: "news"
+    max: 4
+...

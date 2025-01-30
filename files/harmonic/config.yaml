@@ -1,12 +1,13 @@
 ---
 title: 'Harmonic Soundsystem'
 baseURL: 'https://www.harmonicsoundsystem.de/'
-theme: [ 'ananke' ]
+theme: [ 'Arcana' ]
 
 enableRobotsTXT: true
 
 # SectionPagesMenu: 'main'
-paginate: 10
+pagination:
+  pagerSize: 10
 
 defaultContentLanguage: 'de'
 defaultContentLanguageInSubdir: true
@@ -33,6 +34,9 @@ sitemap:
 params:
   env: 'production'
   description: 'Harmonic Soundsystem'
+  images:
+    - "images/harmonic_logo_with_sound.jpg"
+  show_post_dates: false
   # keywords:
   #   - 'Blog'
   #   - 'Hugo'
@@ -49,17 +53,24 @@ params:
   favicon: 'images/fav/fav.ico'
   text_color: ''
   site_logo: 'images/fav/small_fav.ico'
-  mainSections:
-    - 'post'
-    - 'upcoming'
+  # mainSections:
+  #   - 'post'
+  #   - 'upcoming'
+  social:
+    - title: "Facebook"
+      icon: "fa-facebook-f"
+      url: "https://www.facebook.com/harmonicsoundsystem"
+    - title: "Instagram"
+      icon: "fa-instagram"
+      url: "https://www.instagram.com/harmonic_soundsystem/"
+  enableSourceMaps: true
 
-  ananke_socials:
-    - name: 'facebook'
-      url: 'https://www.facebook.com/harmonicsoundsystem'
-      label: 'Harmonic Soundsystem Facebook'
-    - name: 'instagram'
-      url: 'https://www.instagram.com/harmonic_soundsystem/'
-      label: 'Harmonic Soundsystem Instagram'
+# menus:
+#   main:
+#     - name: "News"
+#       weight: 1
+#     - name: "Upcoming"
+#       weight: 2
 
 outputs:
   home:

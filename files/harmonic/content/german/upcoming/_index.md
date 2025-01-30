@@ -1,7 +1,5 @@
 ---
 title: 'Termine'
-menu:
-  main:
-    weight: 2
+menu: "main"
+weight: 30
 ---
-Hier findest du eine Übersicht über unsere anstehenden Veranstaltungen

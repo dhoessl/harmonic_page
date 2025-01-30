@@ -1,0 +1,36 @@
+---
+banner:
+  enable: false
+  image: "images/harmonic_logo_with_sound.jpg"
+  contents: "Roots Dub Reggae Steppas Soundsystem"
+items:
+  - type: "heading"
+    heading: "Harmonic Soundsystem"
+    contents: |
+      Roots Dub Reggae Steppas Soundsystem \
+      {{< rawhtml >}}
+      <br />
+      {{< /rawhtml >}}
+
+      Das Harmonic Soundsystem wurde 2018 von Ras Mikey-I gegründet. \
+      Inzwischen auch von Lioness Susi Dub und Bredda Dome betrieben. \
+      Seid bereit für eine inspirierende Reise voll tider Basslines und “Irie Vibes"
+
+      {{< rawhtml >}}
+      <br />
+      <img src="/images/harmonic_logo_with_sound.jpg">
+      {{< /rawhtml >}}
+    image: "images/harmonic_logo_with_sound.jpg"
+  - type: "heading"
+    heading: "Termine"
+    contents: "Hier gibt es schon mal die nächsten zwei Termine"
+  - type: "posts"
+    content_type: "upcoming"
+    max: 2
+  - type: "heading"
+    heading: "Neuigkeiten"
+    contents: "Eine kleine Auswahl an Neuigkeiten über uns und unseren Sound"
+  - type: "posts"
+    content_type: "news"
+    max: 4
+...

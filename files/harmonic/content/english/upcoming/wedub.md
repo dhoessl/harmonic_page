@@ -1,12 +1,11 @@
 ---
 title: "We dub Weekender"
 date: 2024-03-12T11:38:00+01:00
-featured_image: 'images/wedub/flyer.jpg'
+image: 'images/wedub/flyer.jpg'
+description: "29.03.2024 - 31.03.2024 We are playing at 'We Dub Weekender'"
 draft: false
 ---
-![Flyer](/images/wedub/flyer.jpg)
-
-On the 29. March we are invited to play on the We Dub Weekender.
+On the 29. March we are invited to play at the We Dub Weekender.
 
 We will be playing together with Chris Lion Paw and Roots Taifun Sound.
 

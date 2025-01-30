@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Harmonic Soundsystem</title>
+    <link>http://localhost:1313/en/news/</link>
+    <description>Recent content in News on Harmonic Soundsystem</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 11 Mar 2024 16:12:57 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dubtown&amp;Fire: Dub Conference</title>
+      <link>http://localhost:1313/en/news/dubtownnfire/</link>
+      <pubDate>Mon, 11 Mar 2024 16:12:57 +0100</pubDate>
+      <guid>http://localhost:1313/en/news/dubtownnfire/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/dubtown/1.jpg&#34; alt=&#34;Crew&#34; style=&#34;width:50%; height:auto;&#34;&gt;&#xA;&#xA;&#xA;&lt;p&gt;On the 2nd of March we played a Soundsystem Conference hosted by I&amp;amp;I Dubwise Soundsystem in Munich.&lt;/p&gt;&#xA;&lt;p&gt;For the first time since we build our new Subs we could set them up outside of our resident location.&#xA;With big tunes and such nice boxes we could provide heavy tunes for this session.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;video width=50% controls&gt;&#xA;  &lt;source src=&#39;http://localhost:1313/videos/dubtown_1.mp4&#39; type=&#39;video/mp4&#39;&gt;&#xA;  Your Browser does not support this video tag&#xA;&lt;/video&gt;&#xA;&#xA;&#xA;&lt;p&gt;Give Thanks fi di invitation and big up to each and everyones help.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dub Club Allgäu #24</title>
+      <link>http://localhost:1313/en/news/familienbetrieb_24/</link>
+      <pubDate>Mon, 26 Feb 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/en/news/familienbetrieb_24/</guid>
+      <description>&lt;p&gt;For #24 of Dub Club Allgäu we have invited the nice &lt;a href=&#34;https://www.instagram.com/familienbetriebsoundsystem/&#34;&gt;Familienbetrieb Soundsystem&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The sound of a big roots tunes to heavy steppas could be heard troughout the night.&lt;/p&gt;&#xA;&lt;p&gt;Familienbetrieb wrote some nice words after the session (DE):&#xA;&lt;img src=&#34;http://localhost:1313/images/dubclub24/familienbetrieb.png&#34; alt=&#34;https://www.instagram.com/p/C35vGfMLqw7&#34;&gt;&#xA;&lt;a href=&#34;https://www.instagram.com/p/C35vGfMLqw7&#34;&gt;Instagram Post&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
