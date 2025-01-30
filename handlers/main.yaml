@@ -1,4 +1,4 @@
 ---
 - name: 'restart harmonic webpage container'
-  command: 'docker restart harmonicsoundsystem_blog_1'
+  command: 'docker restart harmonicsoundsystem-blog-1'
 ...
