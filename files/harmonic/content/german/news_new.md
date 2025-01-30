@@ -1,8 +1,8 @@
 ---
 title: "Termine neu"
 description: "Hier findest du Informationen zu unseren zukünftigen Session"
-# menu: "none"
-menu: "main"
+menu: "none"
+# menu: "main"
 weight: 25
 sidebar_left: "sidebar_left_1"
 ---
