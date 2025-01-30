@@ -12,7 +12,7 @@
 - name: "sync public hugo dir"
   ansible.posix.synchronize:
     src: "files/harmonic/public"
-    dest: "{{ harmonic_docker_host_dir }}/data/public"
+    dest: "{{ harmonic_docker_host_dir }}/data/"
     delete: true
     recursive: true
   tags:
