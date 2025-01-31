@@ -5,7 +5,6 @@ date: 2024-03-11T16:12:57+01:00
 image: "images/dubtown/flyer.png"
 draft: false
 ---
-<!-- ![Crew](/images/dubtown/1.jpg) -->
 {{< rawhtml >}}
 <img src="/images/dubtown/1.jpg" alt="Crew" style="width:50%; height:auto;">
 {{< /rawhtml >}}
