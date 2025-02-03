@@ -1,0 +1,21 @@
+---
+params:
+  sound_gallery:
+    - type: "img"
+      path: "/images/sound/full_crew.jpg"
+    - type: "img"
+      path: "/images/dubclub24/crew.jpg"
+    - type: "img"
+      path: "/images/sound/full_old_1.jpg"
+    - type: "img"
+      path: "/images/sound/full_old_2.jpg"
+    - type: "img"
+      path: "/images/sound/full_old_3.jpg"
+    - type: "img"
+      path: "/images/sound/full_old_4.jpg"
+    - type: "img"
+      path: "/images/sound/full_old_old.jpg"
+    - type: "vid"
+      path: "/videos/dubtown_1.mp4"
+      width: "75"
+...

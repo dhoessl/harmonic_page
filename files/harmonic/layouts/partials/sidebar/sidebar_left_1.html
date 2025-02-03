@@ -1,7 +1,11 @@
 <section>
-  <h3>{{ T "sidebar_main_heading" }}</h3>
+  {{- if .Params.sidebar_heading }}
+  <h3>{{ .Params.sidebar_heading }}</h3>
+  {{- end }}
+
   <ul class="links">
-    <li><a href="#2">21.02.2025 - Harmonic Soundsystem invites Farmer Sound</a></li>
-    <li><a href="#1">{{ T "event_1" }}</a></li>
+  {{- range .Params.upcoming }}
+    <li><a class="upcoming-anchor" href="#{{ .id }}">{{ .title }}</a></li>
+  {{- end }}
   </ul>
 </section>

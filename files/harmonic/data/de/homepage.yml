@@ -18,15 +18,21 @@ items:
 
       {{< rawhtml >}}
       <br />
+      <div class="container">
+      <div class="row">
+      <div class="col-2">
+      </div>
+      <div class="col-8">
+      <div id="homepage-image">
       <img src="/images/harmonic_logo_with_sound.jpg">
+      </div>
+      </div>
+      <div class="col-2">
+      </div>
+      </div>
+      </div>
       {{< /rawhtml >}}
     image: "images/harmonic_logo_with_sound.jpg"
-  - type: "heading"
-    heading: "Termine"
-    contents: "Hier gibt es schon mal die nächsten zwei Termine"
-  - type: "posts"
-    content_type: "upcoming"
-    max: 2
   - type: "heading"
     heading: "Neuigkeiten"
     contents: "Eine kleine Auswahl an Neuigkeiten über uns und unseren Sound"

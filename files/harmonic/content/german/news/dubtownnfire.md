@@ -6,7 +6,7 @@ image: "images/dubtown/flyer.png"
 draft: false
 ---
 {{< rawhtml >}}
-<img src="/images/dubtown/1.jpg" alt="Crew" style="width:50%; height:auto;">
+<img src="/images/dubtown/1.jpg" alt="Crew" style="width:50%;">
 {{< /rawhtml >}}
 
 Am 2. März waren wir zu Gast bei I&I Dubwise Soundsystem im Sunny Red in München.\

@@ -1,0 +1,20 @@
+{{ $gallery := "" }}
+{{- if .Params.sound_gallery }}
+  {{ $gallery = .Site.Params.sound_gallery }}
+{{- else if .Params.flyer_gallery }}
+  {{ $gallery = .Site.Params.flyer_gallery }}
+{{ end }}
+<div class="image_link {{ if .Params.sound_gallery }}gallery{{ else }}flyer{{ end }}">
+{{- range $gallery }}
+  {{- if eq .type "img" }}
+  <a target="_blank" href="{{ .path }}">
+    <img src="{{ .path }}"{{- if .alt }} alt="{{ .alt }}"{{- end }}{{- if .width }} style="width={{ .width }}%;"{{- end }}>
+  </a>
+  {{- else if eq .type "vid" }}
+  <video style='width: {{ .width | default "50" }}%;' controls>
+    <source src='/videos/dubtown_1.mp4' type='video/mp4'>
+    Your Browser does not support this video tag
+  </video>
+  {{ end }}
+{{- end }}
+</div>

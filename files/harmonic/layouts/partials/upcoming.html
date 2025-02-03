@@ -1,0 +1,31 @@
+{{- range .Params.upcoming }}
+<h3 class="upcomingh gold-bt" id="{{ .id }}">{{ .title }}{{- if .title_extend }} <span>{{ .title_extend }}</span>{{- end }}</h3>
+<div class="container upcoming">
+  <div class="row">
+{{- if .image }}
+    <div class="col-{{ if .image_size }}{{ .image_size }}{{ else }}6{{ end }}">
+      <div class="image_link">
+        <a target="_blank" href="{{ .image }}">
+          <img src="{{ .image }}"{{- if .image_alt }} alt="{{ .image_alt }}"{{- end }}>
+        </a>
+      </div>
+    </div>
+    {{- if .image_size }}<div class="col-{{ math.Sub 6 .image_size }}"></div>{{ end }}
+{{ end }}
+    <div class="col-{{- if .image }}6{{- else }}12{{- end }}">
+    {{- range .content }}
+      <p>
+      {{ . }}
+      </p>
+    {{- end }}
+      {{ if .fb_event_id }}
+      <p class="facebook-link">
+        <a href="https://www.facebook.com/events/{{ .fb_event_id }}" target="_blank">
+          <i class="icon brands fa-facebook-f"></i> {{ T "facebook_link" }}
+        </a>
+      </p>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

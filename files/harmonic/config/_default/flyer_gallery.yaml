@@ -1,0 +1,7 @@
+---
+params:
+  flyer_gallery:
+    - type: "img"
+      path: "/images/dubclub32/flyer.jpg"
+      width: "75"
+...

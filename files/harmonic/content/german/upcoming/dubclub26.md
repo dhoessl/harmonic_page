@@ -7,10 +7,8 @@ draft: false
 ---
 Nächster Dub Club Allgäu mit Harmonic Soundsystem:
 
-➡️ 13. April 2024
-
-Wir haben dieses Mal ein ganz besonderes Booking aus Irland am Start 💥
-
-Benji Revelation vom Revelation Soundsystem ist seit mehr als 25 Jahren im Soundbusiness und hat ne richtig dicke Selektion am Start ❤️💛💚
-
+➡️ 13. April 2024 \
+Wir haben dieses Mal ein ganz besonderes Booking aus Irland am Start 💥 \
+Benji Revelation vom Revelation Soundsystem ist seit mehr als 25 Jahren im Soundbusiness und \
+hat eine richtig dicke Selektion am Start ❤️💛💚 \
 wir freuen uns mega drauf 💯🔥

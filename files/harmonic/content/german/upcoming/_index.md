@@ -1,5 +1,6 @@
 ---
 title: 'Termine'
-menu: "main"
+# menu: "main"
+menu: "none"
 weight: 30
 ---
