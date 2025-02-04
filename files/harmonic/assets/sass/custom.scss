@@ -1,7 +1,7 @@
 header {
   &.major {
     > p {
-      border-top: solid 1px #d4af37;
+      border-top: solid 1px #333;
     }
   }
 }
@@ -125,8 +125,27 @@ article {
   }
 }
 
-.gold-bt, .gold-bb{
+.gold-bt, .gold-border {
   border-top: solid 1px #d4af37;
+}
+
+.gold-bb, .gold-border {
+ border-bottom: solid 1px #d4af37;
+}
+
+.gold-lb, .gold-border {
+  border-left: solid 1px #d4af37;
+}
+
+.gold-rb, .gold-border {
+  border-right: solid 1px #d4af37;
+}
+
+.wrapper {
+  &.style1 {
+    border-top: solid 1px #d4af37;
+    border-bottom: solid 1px #d4af37;
+  }
 }
 
 .icon.major, .button{
