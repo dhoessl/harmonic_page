@@ -105,23 +105,42 @@ article {
   border: 0px solid black; // remove the underline
 }
 
-.facebook-link {
+.facebook-link, .contacts {
   text-align: bottom;
   > a {
     display: inline-flex;
     align-items: center;
-    background-color: #3B5998;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
-    &:hover {
-      background-color: #2e4482;
-    }
     > i {
       margin-right: 8px;
     }
+  }
+}
+
+.facebook-link {
+  > a {
+    background-color: #3B5998;
+    &:hover {
+      background-color: #2e4482;
+    }
+  }
+}
+
+.facebook-contact {
+  background-color: #3B5998;
+  &:hover {
+    background-color: #2e4482;
+  }
+}
+
+.telegram-contact {
+  background-color: #0088CC;
+  &:hover {
+    background-color: #0077B3;
   }
 }
 

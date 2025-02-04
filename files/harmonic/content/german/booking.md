@@ -13,6 +13,4 @@ Schreib uns doch bitte unter den angegeben Kontakten, wenn du Interesse hast, da
 Gerne stellen wir auch unser Soundsystem auf.
 
 # Kontakte
-[Facebook Mikey](https://www.facebook.com/profile.php?id=100004363576572) \
-[Telegram Mikey](https://t.me/rasmikey) \
-[Telegram Dominic](https://t.me/dhoessl)
+{{< contacts >}}

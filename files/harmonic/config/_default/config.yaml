@@ -56,6 +56,12 @@ params:
       icon: "fa-telegram"
       url: "https://t.me/+CDYTVtz1h644YTBi"
   enableSourceMaps: true
+  footer:
+    links:
+      - header: "Informationen"
+        links:
+          - title: "Impressum"
+            url: "impressum/"
 
 outputs:
   home:

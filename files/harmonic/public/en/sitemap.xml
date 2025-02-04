@@ -146,6 +146,20 @@
                 href="https://www.harmonicsoundsystem.de/en/categories/"
                 />
   </url><url>
+    <loc>https://www.harmonicsoundsystem.de/en/impressum/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="https://www.harmonicsoundsystem.de/de/impressum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://www.harmonicsoundsystem.de/en/impressum/"
+                />
+  </url><url>
     <loc>https://www.harmonicsoundsystem.de/en/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
