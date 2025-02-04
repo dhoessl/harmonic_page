@@ -33,6 +33,41 @@ items:
       </div>
       {{< /rawhtml >}}
     image: "images/harmonic_logo_with_sound.jpg"
+  - type: "highlights"
+    items_per_row: 3
+    items:
+      - title: "Facebook"
+        icon: "fa-calendar"
+        content: |
+          Auf Facebook kannst du uns folgen, um keine Events mehr zu
+          verpassen, auf den wir spielen.
+          {{< rawhtml >}}
+          <p>
+          <br />
+          <a href="https://www.facebook.com/harmonicsoundsystem" class="button" target="_blank">Folgen</a>
+          </p>
+          {{< /rawhtml >}}
+      - title: "Telegram Gruppe"
+        icon: "fa-paper-plane"
+        content: |
+          Falls du über Updates schnell informiert sein willst,
+          oder Fragen an uns hast, kannst du gerne unserer Telegram
+          Gruppe beitreten.
+          {{< rawhtml >}}
+          <p>
+          <a href="https://t.me/+CDYTVtz1h644YTBi" class="button" target="_blank">Beitreten</a>
+          </p>
+          {{< /rawhtml >}}
+      - title: "Instagram"
+        icon: "fa-camera-retro"
+        content: |
+          Folge uns auf Instagram um Eindrücke von unserer Liebe zur
+          Soundsystemkultur zu bekommen.
+          {{< rawhtml >}}
+          <p>
+          <a href="https://www.instagram.com/harmonic_soundsystem/" class="button" target="_blank">Folgen</a>
+          </p>
+          {{< /rawhtml >}}
   - type: "heading"
     heading: "Neuigkeiten"
     contents: "Eine kleine Auswahl an Neuigkeiten über uns und unseren Sound"

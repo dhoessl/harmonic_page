@@ -52,6 +52,9 @@ params:
     - title: "Instagram"
       icon: "fa-instagram"
       url: "https://www.instagram.com/harmonic_soundsystem/"
+    - title: "Telegram"
+      icon: "fa-telegram"
+      url: "https://t.me/+CDYTVtz1h644YTBi"
   enableSourceMaps: true
 
 outputs:

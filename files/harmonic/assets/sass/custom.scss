@@ -125,22 +125,19 @@ article {
   }
 }
 
-.gold-bt {
+.gold-bt, .gold-bb{
   border-top: solid 1px #d4af37;
 }
 
-.gold-bb {
-  border-bottom: solid 1px #d4af37;
+.icon.major, .button{
+  background-color: #333;
+  color: #d4af37;
 }
 
-// .wrapper {
-//   &.style1 {
-//     background-color:       _palette(bg);
-//     background-image:       url('images/bg02.png'),         url('images/bg03.png'),         url('images/bg01.png');
-//     background-position:    top left,                       bottom left,                    top left;
-//     background-size:        100% 6em,                       100% 6em,                       auto;
-//     background-repeat:      no-repeat,                      no-repeat,                      repeat;
-//   }
-//   &.style2 {
-//     background-image
-// }
+.button {
+    &:hover {
+      background-color: #d4af37;
+      color: #333;
+      cursor: pointer;
+    }
+}
