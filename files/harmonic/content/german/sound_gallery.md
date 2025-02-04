@@ -1,5 +1,5 @@
 ---
-title: "Gallerie"
+title: "Galerie"
 description: "Hier gibt es Bilder vom Sound zu sehen"
 # menu: "none"
 menu: "main"
