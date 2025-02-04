@@ -1,6 +1,6 @@
 ---
 title: "Galerie"
-description: "Hier gibt es Bilder vom Sound zu sehen"
+description: "Hier gibt es einige Eindrücke vom Harmonic Soundsystem"
 # menu: "none"
 menu: "main"
 weight: 98

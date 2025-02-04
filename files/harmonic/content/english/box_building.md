@@ -1,11 +1,11 @@
 ---
 title: "Building your boxes"
-description: "Get in touch to see what we can achieve together"
+description: "Building a Sound is our passion. Get in touch to see what we can achieve together."
 menu: "none"
 # menu: "main"
 weight: 50
-image: "images/404.jpg"
-image_alt: "A Picture of some boxes might be displayed"
+image: ""
+image_alt: "A picture of our soundsystem"
 ---
 
 ### Informations

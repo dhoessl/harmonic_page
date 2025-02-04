@@ -1,16 +1,18 @@
 ---
 title: "Booking"
 description: "Buche uns für deine Session"
-menu: "none"
-# menu: "main"
+menu: "main"
 weight: 40
-image: "images/404.jpg"
-image_alt: "Hier kommt ein Bild vom Sound hin, wenn man das möchte"
+image: ""
+image_alt: "Hier ist ein Bild des Soundsystem"
 ---
 
-# WIP
+# Harmonic Soundsystem auf deiner Session
 
-Grundsätzliche Preise, wenn man uns booken möchte.
+Schreib uns doch bitte unter den angegeben Kontakten, wenn du Interesse hast, dass wir auf deiner Veranstaltung spielen. \
+Gerne stellen wir auch unser Soundsystem auf.
 
 # Kontakte
-Schreibe uns auf unseren Socialmedia Kanälen, oder schreibe [Dominic](https://t.me/dhoessl) auf Telegram.
+[Facebook Mikey](https://www.facebook.com/profile.php?id=100004363576572) \
+[Telegram Mikey](https://t.me/rasmikey) \
+[Telegram Dominic](https://t.me/dhoessl)

@@ -1,11 +1,12 @@
 ---
 title: "Boxenbau"
-description: "Etwas über den Bau von Boxen"
+description: "Aus Leidenschaft bauen wir Soundsysteme. Erfahre hier etwas über den Bau vom Soundsystem und schaue, was wir zusammen ereichen können!"
 menu: "none"
 # menu: "main"
 weight: 50
-image: "images/404.jpg"
-image_alt: "Hier kommt ein Bild vom Bau der Boxen hin"
+image: ""
+image_alt: ""
 ---
 
-Hier stehen dann evtl Preise und Möglichkeiten, wie wir boxen für dich bauen können.
+Auf Anfrage ist die Beratung und Bau von Boxen möglich.
+

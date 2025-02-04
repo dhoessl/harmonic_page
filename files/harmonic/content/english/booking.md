@@ -1,17 +1,17 @@
 ---
 title: "Booking"
 description: "Book us for your session!"
-menu: "none"
-# menu: "main"
+menu: "main"
 weight: 40
-image: "images/404.jpg"
-image_alt: "Here a picture of the sound might be displayed"
+image: ""
+image_alt: "This is a picture of the Soundsystem"
 ---
+# Book Harmonic Soundsystem for your event
 
-# WIP
-
-Explain what we do and other stuff.
-Prices might be displayed here for booking purposes.
+Please get in touch with us if you want us to play at your event. \
+For sure we are would love to bring the soundsystem.
 
 # Contact
-Contact us using Socialmedia or write [Dominic](https://t.me/dhoessl) on Telegram.
+[Facebook Mikey](https://www.facebook.com/profile.php?id=100004363576572) \
+[Telegram Mikey](https://t.me/rasmikey) \
+[Telegram Dominic](https://t.me/dhoessl)

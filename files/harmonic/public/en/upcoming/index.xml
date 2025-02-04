@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Upcoming Events on Harmonic Soundsystem</title>
-    <link>https://www.harmonicsoundsystem.de/en/upcoming/</link>
+    <link>http://localhost:1313/en/upcoming/</link>
     <description>Recent content in Upcoming Events on Harmonic Soundsystem</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 12 Mar 2024 11:38:12 +0100</lastBuildDate>
-    <atom:link href="https://www.harmonicsoundsystem.de/en/upcoming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/upcoming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dub Club Allgäu #26</title>
-      <link>https://www.harmonicsoundsystem.de/en/upcoming/dubclub26/</link>
+      <link>http://localhost:1313/en/upcoming/dubclub26/</link>
       <pubDate>Tue, 12 Mar 2024 11:38:12 +0100</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/en/upcoming/dubclub26/</guid>
+      <guid>http://localhost:1313/en/upcoming/dubclub26/</guid>
       <description>&lt;p&gt;Next Dub Club Allgäu:&lt;/p&gt;&#xA;&lt;p&gt;➡️ 13. April 2024&lt;/p&gt;&#xA;&lt;p&gt;This time we got a special booking outa Irland 💥&lt;/p&gt;&#xA;&lt;p&gt;Benji Revelation from Revelation Soundsystem is doing Soundbusiness for more than 25 years and will provide a big and heavy selection ❤️💛💚&lt;/p&gt;&#xA;&lt;p&gt;we are happy to announce this and looking forward to this day 💯🔥&lt;/p&gt;</description>
     </item>
     <item>
       <title>We dub Weekender</title>
-      <link>https://www.harmonicsoundsystem.de/en/upcoming/wedub/</link>
+      <link>http://localhost:1313/en/upcoming/wedub/</link>
       <pubDate>Tue, 12 Mar 2024 11:38:00 +0100</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/en/upcoming/wedub/</guid>
+      <guid>http://localhost:1313/en/upcoming/wedub/</guid>
       <description>&lt;p&gt;On the 29. March we are invited to play at the We Dub Weekender.&lt;/p&gt;&#xA;&lt;p&gt;We will be playing together with Chris Lion Paw and Roots Taifun Sound.&lt;/p&gt;&#xA;&lt;p&gt;On this day there is just presale and no tickets on entry.&lt;/p&gt;&#xA;&lt;p&gt;More info on &lt;a href=&#34;https://www.facebook.com/events/738288461779956&#34;&gt;Facebook&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
