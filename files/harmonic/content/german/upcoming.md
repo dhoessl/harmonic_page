@@ -10,10 +10,9 @@ upcoming:
     title_extend: "Harmonic Soundsystem meets Farmer Sound"
     id: "1"
     content:
-      - "Zum neuen Jahr stellen wir unseren Sound das Erste mal mit 8 Bässen auf."
-      - "Dazu laden wir Farmer Sound ein, mit dem \
-        wir schon zu Silvester eine rießen Party in der Ballonfabrik in \
-        Ausgburg gefeiert haben."
+      - "Zur ersten Session im neuen Jahr, stellen wir unseren Sound das erste Mal mit 8 Bässen auf."
+      - "Farmer Sound, mit dem wir schon zu Silvester eine rießen Party in der Ballonfabrik in \
+        Ausgburg gefeiert haben, wird mit uns an diesem Tag die neuen Boxen einweihen."
       - "Zusätzlich zu Rapha, Jerry und Amando wird MC Layla am Mic den Abend \
         abreisen."
     image: "/images/dubclub32/flyer.jpg"

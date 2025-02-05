@@ -41,7 +41,7 @@ article {
 }
 
 .gallery {
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   place-items: center;
   gap: 10px;
 }
@@ -175,7 +175,15 @@ article {
 .button {
     &:hover {
       background-color: #d4af37;
-      color: #333;
+      color: #333 ! important;
       cursor: pointer;
     }
+    &:active {
+      background-color: #d4af37;
+      color: #333;
+    }
+}
+
+#titleBar {
+  box-shadow: 0 4px 0 0 #d4af37;
 }

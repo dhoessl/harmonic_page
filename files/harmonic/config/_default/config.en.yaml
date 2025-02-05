@@ -1,0 +1,11 @@
+---
+params:
+  footer:
+    links:
+      - header: "Informations"
+        links:
+          - title: "Imprint"
+            url: "/en/impressum/"
+          - title: "Website Source"
+            url: "https://github.com/dhoessl/harmonic_page/tree/master/files/harmonic"
+...

@@ -1,0 +1,8 @@
+<p>
+  {{ if .Get "br" }}
+  {{ if eq (.Get "br") true }}
+  <br />
+  {{ end }}
+  {{ end }}
+  <a href="{{ .Get "url" }}" class="button" target="_blank">{{ .Get "title" }}</a>
+</p>

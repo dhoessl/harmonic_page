@@ -16,23 +16,7 @@ items:
       Harmonic Soundsystem was found 2018 by Ras Mikey-I. \
       In the meantime Susi Dub and Bredda Dome joined in operating the soundsystem longside Ras Mikey-I. \
       Get ready to listen to and feel the irie vibes and heavy Bassline.
-
-      {{< rawhtml >}}
-      <br />
-      <div class="container">
-      <div class="row">
-      <div class="col-2">
-      </div>
-      <div class="col-8">
-      <div id="homepage-image">
-      <img src="/images/harmonic_logo_with_sound.jpg">
-      </div>
-      </div>
-      <div class="col-2">
-      </div>
-      </div>
-      </div>
-      {{< /rawhtml >}}
+      {{< homepageimage >}}
 
   - type: "highlights"
     items_per_row: 3
@@ -41,32 +25,19 @@ items:
         icon: "fa-calendar"
         content: |
           Follow us on Facebook and do not miss out on upcoming Events
-          {{< rawhtml >}}
-          <p>
-          <br />
-          <a href="https://www.facebook.com/harmonicsoundsystem" class="button" target="_blank">Follow</a>
-          </p>
-          {{< /rawhtml >}}
+          {{< button title="Follow" url="https://www.facebook.com/harmonicsoundsystem" br=true >}}
       - title: "Telegram"
         icon: "fa-paper-plane"
         content: |
           If there are any questions about us or the Soundsystem feel free
           to join our Telegram group.
-          {{< rawhtml >}}
-          <p>
-          <a href="https://t.me/+CDYTVtz1h644YTBi" class="button" target="_blank">Join Group</a>
-          </p>
-          {{< /rawhtml >}}
+          {{< button title="Join" url="https://t.me/+CDYTVtz1h644YTBi" br=false >}}
       - title: "Instagram"
         icon: "fa-camera-retro"
         content: |
           If you want to take a look how our love about Soundsystem and its culture
           looks like make sure to follow us on Instagram.
-          {{< rawhtml >}}
-          <p>
-          <a href="https://www.instagram.com/harmonic_soundsystem/" class="button" target="_blank">Follow</a>
-          </p>
-          {{< /rawhtml >}}
+          {{< button title="Follow" url="https://www.instagram.com/harmonic_soundsystem/" br=false >}}
 
   - type: "heading"
     heading: "News"
