@@ -2,7 +2,7 @@
 title: 'Ausflug zur Basskultur #1 von Farmer Soundsystem'
 description: 'Harmonic hat einen Ausflug zur Basskultur #1 von Farmer Soundsystem gemacht'
 date: 2025-02-09T16:12:57+01:00
-image: "http://static.harmonicsoundsystem.de/images/basskultur1/flyer.jpg"
+image: "/images/basskultur1/flyer.jpg"
 draft: false
 ---
 
@@ -20,6 +20,7 @@ Wir haben einen Ausflug nach Regensburg zur Basskultur #1 vom Farmer Soundsystem
 Sowohl Idren G als auch das Farmer Soundsystem haben uns, mit harter Bassline und einer guten Mischung aus Roots, Dubs und Steppas, eine tanzbaren Abend bereitet. Über die Nacht hinweg konnten wir schon in einige, in den nächsten Monaten kommende, neue Releases hören.
 
 {{< rawhtml >}}
+<!-- Do not use this right now
 <div class="container">
 <div class="row">
 <div class="col-12">
@@ -36,6 +37,7 @@ Hier gibt es schon mal zwei kleine Samples zum reinhören. Die Tunes werden am 2
 {{< rawhtml >}}
 </div>
 </div>
+-->
 {{< /rawhtml >}}
 
 Am 21.02.2025 können wir Farmer Sound auch bei uns an den Controls und Plattentellern, zum [Dub Club #31](/en/upcoming/#1), begrüßen.

@@ -5,8 +5,8 @@
 {{- if .image }}
     <div class="col-{{ if .image_size }}{{ .image_size }}{{ else }}6{{ end }}">
       <div class="image_link">
-        <a target="_blank" href="http://static.harmonicsoundsystem.de/images/{{ .image }}">
-          <img src="http://static.harmonicsoundsystem.de/images/{{ .image }}"{{- if .image_alt }} alt="{{ .image_alt }}"{{- end }}>
+        <a target="_blank" href="/images/{{ .image }}">
+          <img src="/images/{{ .image }}"{{- if .image_alt }} alt="{{ .image_alt }}"{{- end }}>
         </a>
       </div>
     </div>

@@ -1,7 +1,7 @@
 {{ if .Get "col" }}
 <div class="col-{{ .Get "col" }} col-12-mobilep">
 {{ end }}
-<img src="http://static.harmonicsoundsystem.de/images/{{ .Get "path" }}" {{ if .Get "alt" }}alt="{{ .Get "alt" }}" {{ end }}{{ if .Get "width" }}style="width: {{ .Get "width" }}%;"{{ end }}>
+<img src="/images/{{ .Get "path" }}" {{ if .Get "alt" }}alt="{{ .Get "alt" }}" {{ end }}{{ if .Get "width" }}style="width: {{ .Get "width" }}%;"{{ end }}>
 {{ if .Get "col" }}
 </div>
 {{ end }}

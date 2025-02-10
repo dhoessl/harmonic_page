@@ -1,7 +1,7 @@
 ---
 banner:
   enable: false
-  image: "http://static.harmonicsoundsystem.de/images/harmonic_logo_with_sound.jpg"
+  image: "/images/harmonic_logo_with_sound.jpg"
   contents: "Roots Dub Reggae Steppas Soundsystem"
 items:
   - type: "heading"
@@ -17,7 +17,7 @@ items:
       Seid bereit für eine inspirierende Reise voll tider Basslines und “Irie Vibes"
 
       {{< homepageimage >}}
-    image: "http://static.harmonicsoundsystem.de/images/harmonic_logo_with_sound.jpg"
+    image: "/images/harmonic_logo_with_sound.jpg"
   - type: "highlights"
     items_per_row: 3
     items:

@@ -4,7 +4,7 @@
 <div class="audio-container wrapper style2">
 <label for='{{ .Get "name" }}'>{{ .Get "label" }}</label>
 <audio id='{{ .Get "name" }}' controls>
-  <source src='http://static.harmonicsoundsystem.de/audio/{{ .Get "path" }}' type='audio/{{ .Get "format" | default "mp3" }}'>
+  <source src='/audio/{{ .Get "path" }}' type='audio/{{ .Get "format" | default "mp3" }}'>
   Your Browser does not support this audio format.
 </audio>
 </div>
