@@ -7,7 +7,7 @@
 <div class="image_link {{ if .Params.sound_gallery }}gallery{{ else }}flyer{{ end }}">
 {{- range $gallery }}
   {{- if eq .type "img" }}
-  <a target="_blank" href="{{ .path }}">
+  <a target="_blank" href="http://static.harmonicsoundystem.de/{{ .path }}">
     <img src="http://static.harmonicsoundsystem.de/{{ .path }}"{{- if .alt }} alt="{{ .alt }}"{{- end }}{{- if .width }} style="width={{ .width }}%;"{{- end }}>
   </a>
   {{- else if eq .type "vid" }}
