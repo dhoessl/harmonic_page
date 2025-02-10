@@ -1,0 +1,10 @@
+{{ if .Get "col" }}
+<div class="col-{{ .Get "col" }} col-12-mobilep">
+{{ end }}
+  <video width='{{ if .Get "width"}}{{ .Get "width" }}{{ else }}50%{{ end }}' controls>
+    <source src='http://static.harmonicsoundsystem.de/videos/{{ .Get "path" }}' type='video/mp4'>
+    Your Browser does not support this video tag
+  </video>
+{{ if .Get "col" }}
+</div>
+{{ end }}

@@ -2,66 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Harmonic Soundsystem</title>
-    <link>https://www.harmonicsoundsystem.de/de/</link>
+    <link>http://localhost:1313/de/</link>
     <description>Recent content in Home on Harmonic Soundsystem</description>
     <generator>Hugo</generator>
     <language>de-de</language>
-    <lastBuildDate>Mon, 11 Mar 2024 16:12:57 +0100</lastBuildDate>
-    <atom:link href="https://www.harmonicsoundsystem.de/de/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Feb 2025 16:12:57 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Termine</title>
-      <link>https://www.harmonicsoundsystem.de/de/upcoming/</link>
+      <link>http://localhost:1313/de/upcoming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/de/upcoming/</guid>
+      <guid>http://localhost:1313/de/upcoming/</guid>
       <description></description>
     </item>
     <item>
       <title>Booking</title>
-      <link>https://www.harmonicsoundsystem.de/de/booking/</link>
+      <link>http://localhost:1313/de/booking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/de/booking/</guid>
+      <guid>http://localhost:1313/de/booking/</guid>
       <description>&lt;h1 id=&#34;harmonic-soundsystem-auf-deiner-session&#34;&gt;Harmonic Soundsystem auf deiner Session&lt;/h1&gt;&#xA;&lt;p&gt;Schreib uns doch bitte unter den angegeben Kontakten, wenn du Interesse hast, dass wir auf deiner Veranstaltung spielen. &lt;br&gt;&#xA;Gerne stellen wir auch unser Soundsystem auf.&lt;/p&gt;&#xA;&lt;h1 id=&#34;kontakte&#34;&gt;Kontakte&lt;/h1&gt;&#xA;&lt;p class=&#34;contacts&#34;&gt;&#xA;  &lt;a href=&#34;https://www.facebook.com/profile.php?id=100004363576572&#34; target=&#34;_blank&#34; class=&#34;facebook-contact&#34;&gt;&#xA;    &lt;i class=&#34;icon brands fa-facebook-f&#34;&gt;&lt;/i&gt;Ras Mikey I&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;https://www.facebook.com/harmonicsoundsystem&#34; target=&#34;_blank&#34; class=&#34;facebook-contact&#34;&gt;&#xA;    &lt;i class=&#34;icon brands fa-facebook-f&#34;&gt;&lt;/i&gt;Harmonic Soundsystem&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;https://t.me/rasmikey&#34; target=&#34;_blank&#34; class=&#34;telegram-contact&#34;&gt;&#xA;    &lt;i class=&#34;icon fa-paper-plane&#34;&gt;&lt;/i&gt;Ras Mikey I&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;https://t.me/dhoessl&#34; target=&#34;_blank&#34; class=&#34;telegram-contact&#34;&gt;&#xA;    &lt;i class=&#34;icon fa-paper-plane&#34;&gt;&lt;/i&gt;Bredda Dome&#xA;  &lt;/a&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Boxenbau</title>
-      <link>https://www.harmonicsoundsystem.de/de/box_building/</link>
+      <link>http://localhost:1313/de/box_building/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/de/box_building/</guid>
+      <guid>http://localhost:1313/de/box_building/</guid>
       <description>&lt;p&gt;Auf Anfrage ist die Beratung und Bau von Boxen möglich.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Galerie</title>
-      <link>https://www.harmonicsoundsystem.de/de/sound_gallery/</link>
+      <link>http://localhost:1313/de/sound_gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/de/sound_gallery/</guid>
+      <guid>http://localhost:1313/de/sound_gallery/</guid>
       <description></description>
     </item>
     <item>
       <title>Flyer Archiv</title>
-      <link>https://www.harmonicsoundsystem.de/de/flyer_archive/</link>
+      <link>http://localhost:1313/de/flyer_archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/de/flyer_archive/</guid>
+      <guid>http://localhost:1313/de/flyer_archive/</guid>
       <description></description>
     </item>
     <item>
+      <title>Ausflug zur Basskultur #1 von Farmer Soundsystem</title>
+      <link>http://localhost:1313/de/news/basskultur_1/</link>
+      <pubDate>Sun, 09 Feb 2025 16:12:57 +0100</pubDate>
+      <guid>http://localhost:1313/de/news/basskultur_1/</guid>
+      <description>&lt;p&gt;Wir haben einen Ausflug nach Regensburg zur Basskultur #1 vom Farmer Soundsystem gemacht. An diesem Abend war auch Idren G vom Jah Chalice Soundsystem an den Controls.&#xA;&#xA;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;div class=&#34;row&#34;&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;col-6 col-12-mobilep&#34;&gt;&#xA;&#xA;  &lt;video width=&#39;60%&#39; controls&gt;&#xA;    &lt;source src=&#39;http://static.harmonicsoundsystem.de/videos/basskultur1/idrengrapha01.mp4&#39; type=&#39;video/mp4&#39;&gt;&#xA;    Your Browser does not support this video tag&#xA;  &lt;/video&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;col-6 col-12-mobilep&#34;&gt;&#xA;&#xA;  &lt;video width=&#39;60%&#39; controls&gt;&#xA;    &lt;source src=&#39;http://static.harmonicsoundsystem.de/videos/basskultur1/idreng.mp4&#39; type=&#39;video/mp4&#39;&gt;&#xA;    Your Browser does not support this video tag&#xA;  &lt;/video&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;Sowohl Idren G als auch das Farmer Soundsystem haben uns, mit harter Bassline und einer guten Mischung aus Roots, Dubs und Steppas, eine tanzbaren Abend bereitet. Über die Nacht hinweg konnten wir schon in einige, in den nächsten Monaten kommende, neue Releases hören.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Dubtown&amp;Fire: Dub Conference</title>
-      <link>https://www.harmonicsoundsystem.de/de/news/dubtownnfire/</link>
+      <link>http://localhost:1313/de/news/dubtownnfire/</link>
       <pubDate>Mon, 11 Mar 2024 16:12:57 +0100</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/de/news/dubtownnfire/</guid>
-      <description>&lt;img src=&#34;https://www.harmonicsoundsystem.de/images/dubtown/1.jpg&#34; alt=&#34;Crew&#34; style=&#34;width:50%;&#34;&gt;&#xA;&#xA;&#xA;&lt;p&gt;Am 2. März waren wir zu Gast bei I&amp;amp;I Dubwise Soundsystem im Sunny Red in München.&lt;br&gt;&#xA;Dort konnten wir zum ersten mal unsere neuen Boxen außerhalb des Allgäus spielen und allen eine fette Session bereiten.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;video width=50% controls&gt;&#xA;  &lt;source src=&#39;https://www.harmonicsoundsystem.de/videos/dubtown_1.mp4&#39; type=&#39;video/mp4&#39;&gt;&#xA;  Your Browser does not support this video tag&#xA;&lt;/video&gt;&#xA;&#xA;&#xA;&lt;p&gt;Give Thanks fi di invitation and big up to each and everyones help.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/de/news/dubtownnfire/</guid>
+      <description>&lt;img src=&#34;http://static.harmonicsoundsystem.de/images//dubtown/1.jpg&#34; alt=&#34;Crew&#34; style=&#34;width: 50%;&#34;&gt;&#xA;&#xA;&#xA;&lt;p&gt;Am 2. März waren wir zu Gast bei I&amp;amp;I Dubwise Soundsystem im Sunny Red in München.&lt;br&gt;&#xA;Dort konnten wir zum ersten mal unsere neuen Boxen außerhalb des Allgäus spielen und allen eine fette Session bereiten.&lt;/p&gt;&#xA;&#xA;  &lt;video width=&#39;50%&#39; controls&gt;&#xA;    &lt;source src=&#39;http://static.harmonicsoundsystem.de/videos//dubtown_1.mp4&#39; type=&#39;video/mp4&#39;&gt;&#xA;    Your Browser does not support this video tag&#xA;  &lt;/video&gt;&#xA;&#xA;&#xA;&lt;p&gt;Give Thanks fi di invitation and big up to each and everyones help.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dub Club Allgäu #24</title>
-      <link>https://www.harmonicsoundsystem.de/de/news/familienbetrieb_24/</link>
+      <link>http://localhost:1313/de/news/familienbetrieb_24/</link>
       <pubDate>Mon, 26 Feb 2024 10:00:00 +0200</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/de/news/familienbetrieb_24/</guid>
-      <description>&lt;p&gt;Zusammen mit dem &lt;a href=&#34;https://www.instagram.com/familienbetriebsoundsystem/&#34;&gt;Familienbetrieb Soundsystem&lt;/a&gt; haben wir eine wundervolle Session verbracht. &lt;br&gt;&#xA;Die Nacht ware durch einen schönen Wechsel durch die verschiedenen Genres des Dubs gezeichnet.&lt;/p&gt;&#xA;&lt;p&gt;Familienbetrieb Soundsystem haben dazu auch &lt;a href=&#34;https://www.instagram.com/p/C35vGfMLqw7&#34;&gt;einen Post&lt;/a&gt; verfasst.&lt;br&gt;&#xA;&#xA;&#xA;&lt;!-- ![https://www.instagram.com/p/C35vGfMLqw7](/images/dubclub24/familienbetrieb.png)--&gt;&#xA;&lt;a href=&#34;https://www.instagram.com/p/C35vGfMLqw7&#34;&gt;&#xA;    &lt;img src=&#34;https://www.harmonicsoundsystem.de/images/dubclub24/familienbetrieb.png&#34; style=&#34;width: 50%;&#34;&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/de/news/familienbetrieb_24/</guid>
+      <description>&lt;p&gt;Zusammen mit dem &lt;a href=&#34;https://www.instagram.com/familienbetriebsoundsystem/&#34;&gt;Familienbetrieb Soundsystem&lt;/a&gt; haben wir eine wundervolle Session verbracht. &lt;br&gt;&#xA;Die Nacht ware durch einen schönen Wechsel durch die verschiedenen Genres des Dubs gezeichnet.&lt;/p&gt;&#xA;&lt;p&gt;Familienbetrieb Soundsystem haben dazu auch &lt;a href=&#34;https://www.instagram.com/p/C35vGfMLqw7&#34;&gt;einen Post&lt;/a&gt; verfasst.&lt;br&gt;&#xA;&#xA;&#xA;&lt;a href=&#34;https://www.instagram.com/p/C35vGfMLqw7&#34;&gt;&#xA;    &lt;img src=&#34;http://static.harmonicsoundsystem.de/images/dubclub24/familienbetrieb.png&#34; style=&#34;width: 50%;&#34;&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Impressum</title>
-      <link>https://www.harmonicsoundsystem.de/de/impressum/</link>
+      <link>http://localhost:1313/de/impressum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.harmonicsoundsystem.de/de/impressum/</guid>
+      <guid>http://localhost:1313/de/impressum/</guid>
       <description>&lt;div class=&#39;impressum&#39;&gt;&lt;h1&gt;Impressum&lt;/h1&gt;&lt;p&gt;Angaben gemäß § 5 DDG&lt;/p&gt;&lt;p&gt;Dominic Hößl &lt;br&gt;&#xA;Langweid 11&lt;br&gt;&#xA;87647 Unterthingau &lt;br&gt;&#xA;&lt;/p&gt;&lt;p&gt; &lt;strong&gt;Vertreten durch: &lt;/strong&gt;&lt;br&gt;&#xA;Dominic Hößl&lt;br&gt;&#xA;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Kontakt:&lt;/strong&gt; &lt;br&gt;&#xA;E-Mail: &lt;a href=&#39;mailto:dominichoessl@gmail.com&#39;&gt;dominichoessl@gmail.com&lt;/a&gt;&lt;/br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Haftungsausschluss: &lt;/strong&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;Haftung für Links&lt;/strong&gt;&lt;br&gt;&lt;br&gt;&#xA;Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.&lt;/p&gt;</description>
     </item>
   </channel>

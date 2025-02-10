@@ -8,11 +8,11 @@
 {{- range $gallery }}
   {{- if eq .type "img" }}
   <a target="_blank" href="{{ .path }}">
-    <img src="{{ .path }}"{{- if .alt }} alt="{{ .alt }}"{{- end }}{{- if .width }} style="width={{ .width }}%;"{{- end }}>
+    <img src="http://static.harmonicsoundsystem.de/{{ .path }}"{{- if .alt }} alt="{{ .alt }}"{{- end }}{{- if .width }} style="width={{ .width }}%;"{{- end }}>
   </a>
   {{- else if eq .type "vid" }}
   <video style='width: {{ .width | default "50" }}%;' controls>
-    <source src='/videos/dubtown_1.mp4' type='video/mp4'>
+    <source src='http://static.harmonicsoundsystem.de/{{ .path }}' type='video/mp4'>
     Your Browser does not support this video tag
   </video>
   {{ end }}

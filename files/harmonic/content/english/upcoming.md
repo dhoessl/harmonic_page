@@ -14,7 +14,7 @@ upcoming:
       - "After having a heavy and nice party with Farmer Sound in Augsburg on 31.12.2024 \
         they are providing nice tunes and vocals again"
       - "Farmer Sound will be joined by MC Layla on the mic"
-    image: "/images/dubclub32/flyer.jpg"
+    image: "dubclub32/flyer.jpg"
     image_size: 5
     fb_event_id: "483996438080803"
   - title: "13.04.2024 - Dub Club Allgäu #26"
@@ -26,7 +26,7 @@ upcoming:
       - "Benji Revelation (Revelation Soundsystem) is doing soundbsiness for \
         more than 25 years and will provide a heavy selection this session ❤️💛💚"
       - "Make it a date and dont be late 💯🔥"
-    image: "/images/dubclub26/dub_club_26.jpg"
+    image: "dubclub26/dub_club_26.jpg"
   - title: "29.03.2024 to 31.03.2024 - We Dub Weekender"
     id: "3"
     content:
@@ -34,7 +34,7 @@ upcoming:
       - 'Harmonic Sound is playing on the 29.03. together with "Chris Lion Paw"
         and "Roots Taifun Sound" on "King David Soundsystem".'
       - "On friday entry there is no entry at the doors without a ticket. Please get a ticket online"
-    image: "/images/wedub/flyer.jpg"
+    image: "wedub/flyer.jpg"
     image_size: 5
     fb_event_id: "738288461779956"
 ---

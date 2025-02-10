@@ -15,7 +15,7 @@ upcoming:
         Ausgburg gefeiert haben, wird mit uns an diesem Tag die neuen Boxen einweihen."
       - "Zusätzlich zu Rapha, Jerry und Amando wird MC Layla am Mic den Abend \
         abreisen."
-    image: "/images/dubclub32/flyer.jpg"
+    image: "dubclub32/flyer.jpg"
     image_size: 5
     fb_event_id: "483996438080803"
   - title: "13.04.2024 - Dub Club Allgäu #26"
@@ -27,14 +27,14 @@ upcoming:
       - "Benji Revelation vom Revelation Soundsystem ist seit mehr als 25 Jahren im Soundbusiness und \
         hat eine richtig dicke Selektion am Start ❤️💛💚"
       - "wir freuen uns mega drauf 💯🔥"
-    image: "/images/dubclub26/dub_club_26.jpg"
+    image: "dubclub26/dub_club_26.jpg"
   - title: "29.03.2024 bis 31.03.2024 - We Dub Weekender"
     id: "3"
     content:
         - "Wir sind zum We Dub Weekender vom 29. - 31. März in Tübingen eingeladen."
         - "Harmonic Sound wird es am 29. zusammen mit Chris Lion Paw und Roots Taifun Sound zu hören geben."
         - "Für den Freitag ist nur Presale möglich, es gibt keine Abendkasse."
-    image: "/images/wedub/flyer.jpg"
+    image: "wedub/flyer.jpg"
     image_size: 5
     fb_event_id: "738288461779956"
 ---

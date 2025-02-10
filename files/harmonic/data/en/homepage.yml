@@ -1,12 +1,12 @@
 ---
 banner:
   enable: false
-  image: "images/harmonic_logo_with_sound.jpg"
+  image: "http://static.harmonicsoundsystem.de/images/harmonic_logo_with_sound.jpg"
   contents: "Roots Dub Reggae Steppas Soundsystem"
 items:
   - type: "heading"
     heading: "Harmonic Soundsystem"
-    image: "images/harmonic_logo_with_sound.jpg"
+    image: "http://static.harmonicsoundsystem.de/images/harmonic_logo_with_sound.jpg"
     contents: |
       Roots Dub Reggae Steppas Soundsystem \
       {{< rawhtml >}}

@@ -2,7 +2,7 @@
 title: 'Dubtown&Fire: Dub Conference'
 description: 'I&I Dubwise Sound meets Harmonic Soundsystem'
 date: 2024-03-11T16:12:57+01:00
-image: "images/dubtown/flyer.png"
+image: "http://static.harmonicsoundsystem.de/images/dubtown/flyer.png"
 draft: false
 ---
 {{< rawhtml >}}
