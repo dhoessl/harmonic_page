@@ -7,14 +7,14 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 RUN VER=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name[1:]') \
-    && curl -sL -o /tmp/hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${VER}/hugo_extended_${VER}_linux-amd64.deb" \
-    && dpkg -i /tmp/hugo.deb \
-    && rm /tmp/hugo.deb
+    && curl -sL -o /hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${VER}/hugo_extended_${VER}_linux-amd64.deb" \
+    && dpkg -i /hugo.deb \
+    && rm /hugo.deb
 
 RUN VER=$(curl -s https://go.dev/dl/ | grep -m1 -o 'go[0-9]\+\.[0-9]\+\.[0-9]\+\.linux-amd64\.tar\.gz') \
-    && curl -sL -o /tmp/go.tar.gz "https://go.dev/dl/${VER}" \
-    && tar -C /usr/local -xzf /tmp/go.tar.gz \
-    && rm /tmp/go.tar.gz
+    && curl -sL -o /go.tar.gz "https://go.dev/dl/${VER}" \
+    && tar -C /usr/local -xzf /go.tar.gz \
+    && rm /go.tar.gz
 
 WORKDIR /
 RUN mkdir /public
