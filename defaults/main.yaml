@@ -1,7 +1,3 @@
 ---
 harmonic_page_base_dir: "/opt/harmonic_page"
-
-# harmonic_docker_host_dir: '/var/lib/harmonic_page'
-# harmonic_state: 'present'
-# harmonic_port: '1313'
 ...
