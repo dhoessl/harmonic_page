@@ -6,7 +6,9 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN VER=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name[1:]') \
+RUN VER=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r ".tag_name[1:]") \
+    && echo $VER 
+RUN VER=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r ".tag_name[1:]") \
     && curl -sL -o /hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${VER}/hugo_extended_${VER}_linux-amd64.deb"
 RUN dpkg -i /hugo.deb
 RUN rm /hugo.deb
