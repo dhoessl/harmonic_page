@@ -1,13 +1,13 @@
 FROM debian:trixie
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends curl git jq \
+    && apt-get install -y --no-install-recommends curl git jq grep\
     && apt-get autoremove -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
 RUN curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r ".tag_name[1:]" > /hugo.version
-RUN curl -s https://go.dev/dl/ | grep -m1 -o 'go[0-9]\+\.[0-9]\+\.[0-9]\+\.linux-amd64\.tar\.gz' > /go.version
+RUN curl -s https://go.dev/dl/ | grep -m1 -o "go[0-9]\+\.[0-9]\+\.[0-9]\+\.linux-amd64\.tar\.gz" > /go.version
 
 RUN curl -sL -o /hugo.deb "https://github.com/gohugoio/hugo/releases/download/v`cat /hugo.version`/hugo_extended_`cat hug.version`_linux-amd64.deb"
 RUN dpkg -i /hugo.deb
