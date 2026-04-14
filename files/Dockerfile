@@ -14,7 +14,7 @@ RUN dpkg -i /hugo.deb
 RUN rm /hugo.deb /hugo.version
 
 RUN curl -sL -o /go.tar.gz "https://go.dev/dl/`cat /go.version`.linux-amd64.tar.gz" \
-    && tar -C /usr/local -xzf /go.tar.gz \
+    && tar -C / -xzf /go.tar.gz \
     && rm /go.tar.gz /go.version
 
 WORKDIR /
