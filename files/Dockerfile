@@ -1,0 +1,27 @@
+FROM debian:trixie
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends curl git jq \
+    && apt-get autoremove -y \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV VER=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name[1:]')
+
+RUN curl -sL -o /tmp/hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${VER}/hugo_extended_${VER}_linux-amd64.deb" \
+    && dpkg -i /tmp/hugo.deb \
+    && rm /tmp/hugo.deb
+
+ENV VER=$(curl -s https://go.dev/dl/ | grep -m1 -o 'go[0-9]\+\.[0-9]\+\.[0-9]\+\.linux-amd64\.tar\.gz')
+RUN curl -sL -o /tmp/go.tar.gz "https://go.dev/dl/${VER}" \
+    && tar -C /usr/local -xzf /tmp/go.tar.gz \
+    && rm /tmp/go.tar.gz
+
+ENV VER=
+WORKDIR /
+RUN mkdir /public
+
+COPY ./entrypoint.sh /entrypoint.sh
+RUN chmod u+x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
