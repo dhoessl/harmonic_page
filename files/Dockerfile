@@ -9,7 +9,7 @@ RUN apt-get update \
 RUN curl -s "https://api.github.com/repos/gohugoio/hugo/releases/latest" | jq -r '.tag_name[1:]' > /hugo.version
 RUN curl -s "https://go.dev/VERSION?m=text" | head -n1  > /go.version
 
-RUN curl -sL -o /hugo.deb "https://github.com/gohugoio/hugo/releases/download/v`cat /hugo.version`/hugo_extended_`cat hug.version`_linux-amd64.deb"
+RUN curl -sL -o /hugo.deb "https://github.com/gohugoio/hugo/releases/download/v`cat /hugo.version`/hugo_extended_`cat /hugo.version`_linux-amd64.deb"
 RUN dpkg -i /hugo.deb
 RUN rm /hugo.deb /hugo.version
 
