@@ -1,7 +1,7 @@
 ---
 title: 'Harmonic Soundsystem'
 baseURL: 'https://www.harmonicsoundsystem.de/'
-theme: [ 'Arcana' ]
+theme: [ "github.com/half-duplex/hugo-arcana" ]
 
 enableRobotsTXT: true
 
