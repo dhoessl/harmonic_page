@@ -6,17 +6,16 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN VER=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r ".tag_name[1:]") \
-    && echo $VER 
-RUN VER=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r ".tag_name[1:]") \
-    && curl -sL -o /hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${VER}/hugo_extended_${VER}_linux-amd64.deb"
-RUN dpkg -i /hugo.deb
-RUN rm /hugo.deb
+RUN curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r ".tag_name[1:]" > /hugo.version
+RUN curl -s https://go.dev/dl/ | grep -m1 -o 'go[0-9]\+\.[0-9]\+\.[0-9]\+\.linux-amd64\.tar\.gz' > /go.version
 
-RUN VER=$(curl -s https://go.dev/dl/ | grep -m1 -o 'go[0-9]\+\.[0-9]\+\.[0-9]\+\.linux-amd64\.tar\.gz') \
-    && curl -sL -o /go.tar.gz "https://go.dev/dl/${VER}" \
+RUN curl -sL -o /hugo.deb "https://github.com/gohugoio/hugo/releases/download/v`cat /hugo.version`/hugo_extended_`cat hug.version`_linux-amd64.deb"
+RUN dpkg -i /hugo.deb
+RUN rm /hugo.deb /hugo.version
+
+RUN curl -sL -o /go.tar.gz "https://go.dev/dl/`cat /go.version`" \
     && tar -C /usr/local -xzf /go.tar.gz \
-    && rm /go.tar.gz
+    && rm /go.tar.gz /go.version
 
 WORKDIR /
 RUN mkdir /public
