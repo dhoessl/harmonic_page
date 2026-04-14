@@ -1,0 +1,26 @@
+---
+- name: "Get latest version number"
+  ansible.builtin.uri:
+    url: "https://api.github.com/repos/gohugoio/hugo/releases/latest"
+    method: "GET"
+    return_content: true
+  register: "response"
+
+- name: "Download hugo deb"
+  ansible.builtin.get_url:
+    url: "https://github.com/gohugoio/hugo/releases/download/\
+          {{ response.json.tag_name }}/hugo_extended_\
+          {{ response.json.tag_name | replace('v', '') }}_linux-amd64.deb"
+    dest: "/tmp/hugo.deb"
+    mode: "0644"
+
+- name: "Install hugo"
+  ansible.builtin.apt:
+    deb: "/tmp/hugo.deb"
+    state: "present"
+
+- name: "Remove .deb after install"
+  ansible.builtin.file:
+    path: "/tmp/hugo.deb"
+    state: "absent"
+...

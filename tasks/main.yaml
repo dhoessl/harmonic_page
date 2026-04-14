@@ -1,11 +1,79 @@
 ---
-- name: 'import prepare_filesystem task'
-  import_tasks: 'prepare_filesystem.yaml'
+- name: "Create base folder"
+  ansible.builtin.file:
+    path: "{{ harmonic_page_base_dir }}{{ item }}"
+    state: "directory"
+    owner: "root"
+    group: "root"
+    mode: "0755"
+  loop:
+    - ""
+    - "/tmp"
   tags:
-    - 'harmonic:filesystem'
+    - "harmonic:build"
 
-- name: 'import create_container task'
-  import_tasks: 'create_container.yaml'
+- name: "sync build content"
+  ansible.posix.synchronize:
+    src: "files/harmonic/"
+    dest: "{{ harmonic_page_base_dir }}/tmp/"
+    mode: "push"
+    recursive: true
+    checksum: true
   tags:
-    - 'harmonic:docker'
+    - "harmonic:build"
+
+- name: "Install latest hugo version"
+  ansible.builtin.include_tasks: "install_hugo.yaml"
+  tags:
+    - "harmonic:hugo"
+
+- name: "Hugo mod init"
+  ansible.builtin.command: "hugo mod init harmonic"
+  args:
+    chdir: "{{ harmonic_page_base_dir }}/tmp/"
+  tags:
+    - "harmonic:build"
+
+- name: "Hugo mod get"
+  ansible.builtin.command: "hugo mod get github.com/half-duplex/hugo-arcana"
+  args:
+    chdir: "{{ harmonic_page_base_dir }}/tmp/"
+  tags:
+    - "harmonic:build"
+
+- name: "Build public dir"
+  ansible.builtin.command: "hugo"
+  args:
+    chdir: "{{ harmonic_page_base_dir }}/tmp/"
+  tags:
+    - "harmonic:build"
+
+- name: "Hugo mod tidy"
+  ansible.builtin.command: "hugo mod tidy"
+  args:
+    chdir: "{{ harmonic_page_base_dir }}/tmp/"
+  tags:
+    - "harmonic:build"
+
+- name: "Clear content"
+  ansible.builtin.file:
+    path: "{{ harmonic_page_base_dir }}/public"
+    state: "absent"
+  tags:
+    - "harmonic:build"
+
+- name: "Copy public to web base dir"
+  ansible.builtin.copy:
+    src: "{{ harmonic_page_base_dir }}/tmp/public"
+    dest: "{{ harmonic_page_base_dir }}/public"
+    remote_src: true
+  tags:
+    - "harmonic:build"
+
+- name: "Clear build dir"
+  ansible.builtin.file:
+    path: "{{ harmonic_page_base_dir }}/tmp"
+    state: "absent"
+  tags:
+    - "harmonic:build"
 ...

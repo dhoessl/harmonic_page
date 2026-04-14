@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: "dhoessl"
+  description: "Create www.harmonicsoundsystem.de"
+  company: ""
+
+  license: "GPL-3.0-only"
+
+  min_ansible_version: "2.2"
+
+  galaxy_tags:
+    - "hugo"
+    - "harmonicsoundsystem"
+
+dependencies: []
+...
